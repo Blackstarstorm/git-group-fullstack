@@ -18,4 +18,6 @@ app.get('/ping', (req, res) => {
   res.json({ ping: 'pong' })
 })
 
-app.listen(PORT, () => console.log(`Up and running port ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Up and running port ${PORT}`);
+})
